@@ -19,7 +19,7 @@
 {
   "versionCode": 100,
   "versionName": "0.1.0",
-  "downloadUrl": "https://github.com/<owner>/ai-text-createtor/releases/download/v0.1.0/xiaoshuo-0.1.0.apk",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.0/xiaoshuo-0.1.0.apk",
   "sha256": "<64 位小写十六进制>",
   "size": 12345678,
   "minSupportedVersionCode": null,
@@ -32,8 +32,8 @@
 - `size` 必须 > 0；`sha256` 必须是 64 位十六进制，客户端下载后逐字节校验，不匹配即删除；
 - `minSupportedVersionCode`：低于它的客户端**不可跳过**更新；`null` 表示不强制；
 - 访问地址（App 端已实现双通道，jsDelivr 有约 12h 缓存）：
-  - `https://cdn.jsdelivr.net/gh/<owner>/ai-text-createtor@main/version.json`
-  - `https://raw.githubusercontent.com/<owner>/ai-text-createtor/main/version.json`
+  - `https://cdn.jsdelivr.net/gh/Miker2018/ai-text-createtor@main/version.json`
+  - `https://raw.githubusercontent.com/Miker2018/ai-text-createtor/main/version.json`
 
 > 当前 `version.json` 是 **0.1.0 占位**（`sha256` 全 0、`size` 为占位值），发首个正式包时
 > 必须用主仓 `scripts/release/release.mjs` 重新生成，不要手改。

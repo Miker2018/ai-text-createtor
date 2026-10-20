@@ -12,5 +12,5 @@
 - 首个版本：书架、目录、编辑器、AI 助手、GitHub 同步、崩溃诊断。
 - 自更新通道打通：`version.json` 清单 → APK 下载 → SHA-256 校验 → 系统安装器。
 
-[Unreleased]: https://github.com/OWNER/ai-text-createtor/compare/v0.1.0...main
-[0.1.0]: https://github.com/OWNER/ai-text-createtor/releases/tag/v0.1.0
+[Unreleased]: https://github.com/Miker2018/ai-text-createtor/compare/v0.1.0...main
+[0.1.0]: https://github.com/Miker2018/ai-text-createtor/releases/tag/v0.1.0
