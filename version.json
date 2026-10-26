@@ -1,10 +1,10 @@
 {
-  "versionCode": 102,
-  "versionName": "0.1.2",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.2/xiaoshuo-0.1.2.apk",
-  "sha256": "37a32ee07f67d6e4226b0dcd4fa6614ced612eae2ce21ca67fa8ed44e72788d6",
+  "versionCode": 103,
+  "versionName": "0.1.3",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.3/xiaoshuo-0.1.3.apk",
+  "sha256": "4260f0ee1897abb1b662eabc80ed4f38488a000a5d36cc521ef478a22bd1123e",
   "size": 97843480,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复下载后包大小校验误报（实际 0）；启动 App 即检查更新",
-  "publishedAt": 1793035199590
+  "changelog": "- 修复下载后包大小校验误报（实际 0）；启动 App 即检查更新；双通道取最新清单（jsDelivr 滞后不再引向旧包）",
+  "publishedAt": 1793036931761
 }
