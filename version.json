@@ -1,10 +1,10 @@
 {
-  "versionCode": 106,
-  "versionName": "0.1.6",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.6/xiaoshuo-0.1.6.apk",
-  "sha256": "5f8adbab2c0132d5702c51121a6afb5cee4be15929339bbdb7500887ee12cb3b",
+  "versionCode": 109,
+  "versionName": "0.1.9",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.9/xiaoshuo-0.1.9.apk",
+  "sha256": "660c3934f8ccd470fe203fba35f2272eca390bca7fd6cbfe1999ba7bfcf40841",
   "size": 97843480,
   "minSupportedVersionCode": null,
-  "changelog": "测试发布版本",
-  "publishedAt": 1793083057107
+  "changelog": "- 新增：模型思考面板在请求活动（等待/思考/正文生成）时自动滚动到底部，方便查看最新思考内容；请求结束后保持手动滚动\n- 工程：docs/release.md 补充标准发布流程 §3.0（改代码 → 记 CHANGELOG → auto-release 一键发版）\n- 说明：v0.1.7 未发布（版本号自增遗留，直接跳到 v0.1.8）",
+  "publishedAt": 1793089814841
 }
