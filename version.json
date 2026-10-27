@@ -1,10 +1,10 @@
 {
-  "versionCode": 109,
-  "versionName": "0.1.9",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.9/xiaoshuo-0.1.9.apk",
-  "sha256": "660c3934f8ccd470fe203fba35f2272eca390bca7fd6cbfe1999ba7bfcf40841",
+  "versionCode": 110,
+  "versionName": "0.1.10",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.10/xiaoshuo-0.1.10.apk",
+  "sha256": "9121d5e5312a23665ffffc8f2c6afa2c2a2a5f0f4988290539dc8dbf798ddade",
   "size": 97843480,
   "minSupportedVersionCode": null,
-  "changelog": "- 新增：模型思考面板在请求活动（等待/思考/正文生成）时自动滚动到底部，方便查看最新思考内容；请求结束后保持手动滚动\n- 工程：docs/release.md 补充标准发布流程 §3.0（改代码 → 记 CHANGELOG → auto-release 一键发版）\n- 说明：v0.1.7 未发布（版本号自增遗留，直接跳到 v0.1.8）",
-  "publishedAt": 1793089814841
+  "changelog": "- 新增：AI 创作并发与审核并发统一收进「设置 → AI 工具」，可在设置页直接调整（创作 1–3、审核 1–5），任务页/书架页快捷入口同步生效\n- 变更：审核并发默认由 3 改为 1，与创作并发一致（默认并发都为 1），更稳、不易触发供应商限流；书架页审核并发初始值改为从设置读取",
+  "publishedAt": 1793103421456
 }
