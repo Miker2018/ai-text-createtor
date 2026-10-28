@@ -1,10 +1,10 @@
 {
-  "versionCode": 110,
-  "versionName": "0.1.10",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.10/xiaoshuo-0.1.10.apk",
-  "sha256": "9121d5e5312a23665ffffc8f2c6afa2c2a2a5f0f4988290539dc8dbf798ddade",
-  "size": 97843480,
+  "versionCode": 111,
+  "versionName": "0.1.11",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.11/xiaoshuo-0.1.11.apk",
+  "sha256": "f8a832d37560e16b73175d4a971c7eab8fe73d001aeaa17c08dbc2aa184776b1",
+  "size": 97847576,
   "minSupportedVersionCode": null,
   "changelog": "- 新增：AI 创作并发与审核并发统一收进「设置 → AI 工具」，可在设置页直接调整（创作 1–3、审核 1–5），任务页/书架页快捷入口同步生效\n- 变更：审核并发默认由 3 改为 1，与创作并发一致（默认并发都为 1），更稳、不易触发供应商限流；书架页审核并发初始值改为从设置读取",
-  "publishedAt": 1793103421456
+  "publishedAt": 1793147220435
 }
