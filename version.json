@@ -1,10 +1,10 @@
 {
-  "versionCode": 111,
-  "versionName": "0.1.11",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.11/xiaoshuo-0.1.11.apk",
-  "sha256": "f8a832d37560e16b73175d4a971c7eab8fe73d001aeaa17c08dbc2aa184776b1",
+  "versionCode": 112,
+  "versionName": "0.1.12",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.12/xiaoshuo-0.1.12.apk",
+  "sha256": "cf3ccd568704b8129abf486b48f8aec46f21bb5773077c2f451ba5848e74341b",
   "size": 97847576,
   "minSupportedVersionCode": null,
-  "changelog": "- 新增：AI 创作并发与审核并发统一收进「设置 → AI 工具」，可在设置页直接调整（创作 1–3、审核 1–5），任务页/书架页快捷入口同步生效\n- 变更：审核并发默认由 3 改为 1，与创作并发一致（默认并发都为 1），更稳、不易触发供应商限流；书架页审核并发初始值改为从设置读取",
-  "publishedAt": 1793147220435
+  "changelog": "- 新增：设置 → 诊断页接入真实「同步诊断」——展示仓库/最后同步/设备、待推送/冲突/错误/已同步四类统计与明细；可导出**脱敏的 JSON / Markdown** 诊断报告（不含正文、Key 与 PAT），发给开发者排查同步卡点\n- 新增：诊断页「运行自检」改为真实健康检查——逐项核验运行环境/数据库 schema/配置自愈/同步状态/存储占用/AI 供应商/崩溃待报数，异常项给出对应提示，不再只凭「有无崩溃」判正常\n- 新增：业务层被捕获的错误统一进诊断缓冲——页面 catch 后的错误（AI/同步/存储等）随错误提示自动上报到「最近错误」，后台同步失败也会落诊断；崩溃上报通道保持「未捕获/致命」语义，业务可重试错误不占用也不误上报",
+  "publishedAt": 1793188871605
 }
