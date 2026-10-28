@@ -1,10 +1,10 @@
 {
-  "versionCode": 115,
-  "versionName": "0.1.15",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.15/xiaoshuo-0.1.15.apk",
-  "sha256": "42544563e65ee7c6893806870011142d7116bfee3c80e7f318093cad64530cfb",
+  "versionCode": 116,
+  "versionName": "0.1.16",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.16/xiaoshuo-0.1.16.apk",
+  "sha256": "abcf2bda7204f6f56e86c48ec42b000b7cfab875687f02131b6e55cfaea8dfaa",
   "size": 97847576,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：真机漏网——行尾冒号的元文本头（「逐章构思一下：」「分类限：地点」）、无标点的规划句（「从逻辑上规划这一卷」）不再变成章名/角色名/设定名；专名守卫收敛为共享规则（行尾冒号 + 任务元词），三处解析对齐",
-  "publishedAt": 1793209307043
+  "changelog": "- 修复：真机漏网——行尾冒号的元文本头（「逐章构思一下：」「分类限：地点」）、无标点的规划句（「从逻辑上规划这一卷」）不再变成章名/角色名/设定名；专名守卫收敛为共享规则（行尾冒号 + 任务元词），三处解析对齐\n- 修复：名称尾部清理——「陆沉舟——嗯，\"陆\"作为姓氏…」这类名称后接思考、「周平川。」这类行尾句号，剥掉尾部只留真名，不再整条入库或整条丢弃",
+  "publishedAt": 1793211540963
 }
