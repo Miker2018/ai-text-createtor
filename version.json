@@ -1,10 +1,10 @@
 {
-  "versionCode": 124,
-  "versionName": "0.1.24",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.24/xiaoshuo-0.1.24.apk",
-  "sha256": "6b5c41f895c2e80efa5a797816831bfd7d27c2ac64d04f68d90bd99100fa26bc",
+  "versionCode": 125,
+  "versionName": "0.1.25",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.25/xiaoshuo-0.1.25.apk",
+  "sha256": "2d0fecb06ef6081be927e32995751c35292bc867f54d87c70242e21b40f215a2",
   "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：思考内容混进正文——8888ok 等网关的推理模型（deepseek-v4-pro）把成品也写在 reasoning_content（content 恒空），思考兜底直接拿 reasoning 当正文导致英文思考句混进章名/角色/设定。现在兜底时按行剥离英文思考，只留中文成品；纯思考仍按「模型只返回了思考内容」处理",
-  "publishedAt": 1793258855067
+  "changelog": "- 修复：全部提示词模板补「不要输出思考/推理/分析过程」约束——正文生成 system 段、构思向导（书名/情节/大纲/章节目录/章节大纲）、角色/设定、要求建议、章节摘要统一禁止思考过程进输出，配合 reasoning 兜底剥离，双重防思考混入正文",
+  "publishedAt": 1793259905912
 }
