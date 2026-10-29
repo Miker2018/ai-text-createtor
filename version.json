@@ -1,10 +1,10 @@
 {
-  "versionCode": 126,
-  "versionName": "0.1.26",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.26/xiaoshuo-0.1.26.apk",
-  "sha256": "cb6439b514e2db46876cc4980ca1387dca53300611aaf496fbce4cedff3523ed",
+  "versionCode": 127,
+  "versionName": "0.1.27",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.27/xiaoshuo-0.1.27.apk",
+  "sha256": "6b907a19680f2ef832763bf0dd6d731cebcc42e0e497fb9461cbcd0e3a17d97b",
   "size": 97855768,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：全部提示词模板补「不要输出思考/推理/分析过程」约束——正文生成 system 段、构思向导（书名/情节/大纲/章节目录/章节大纲）、角色/设定、要求建议、章节摘要统一禁止思考过程进输出，配合 reasoning 兜底剥离，双重防思考混入正文",
-  "publishedAt": 1793271468318
+  "changelog": "- 修复：思考内容混进正文——公共取字边界增量隔离 `<think>` / `<thinking>`（跨分片、未闭合、失败/取消不泄露），思考走思考面板、正文才进草稿\n- 修复：构思链路把 reasoning 当降级成品（中文思考被当书名人名章名）——现在只报 `E_AI_REASONING_ONLY`，不回放、不解析、不覆盖已存简介\n- 修复：流式协议边界——EOF 缺少协议的完成标记不再误报成功；OpenAI/Anthropic/Gemini 流内 `error` 事件正确上报；SSE 支持 CR/LF/CRLF 跨分片；不再把完整响应体拼到半截分片后\n- 修复：章节大纲串章——按编号/明确章名定位，缺号留空、续行不占下一章、重复与越界块不覆盖；章节大纲保存失败会向上抛出并停止后续请求\n- 修复：角色解析与展示——第五个裸姓名不再合并覆盖前一角色；跨角色重置续行字段；`- **性格：**` 与别名保持类型；草稿页展示全部真实字段，数量不足时提示并保留原文\n- 修复：章节目录按目标缺额续补，显式追加去重；取消或缺章不再提示“已排好”\n- 修复：生成结果完整性——失败、截断、内容过滤、工具调用、thinking-only 不再当成功正文；审核/优化落库前要求完整成功，复核失败不标已审核\n- 修复：单章与批量篇幅纠偏携带实际待修订原稿；纠偏失败/取消/截断传播失败状态并保留原稿预览\n- 修复：输出预算统一按运行时设置（不再各处写死小额度），思考模式使用设置的输出上限，尊重用户 `maxTokens`、请求上限与已知模型上限\n- 修复：token 累计与速度统计——公共 HTTP 边界统一记账（含构思、审核、探测、重试与失败尝试），同一请求 usage 快照不重复累加、迟到 usage 不污染后续；缺失 usage 标注“已知部分”而非真实零；Gemini 思考 token 计入；结束用真实 usage 计算精确输出速度，实时态明确标“估算”，首字等待单列",
+  "publishedAt": 1793275005147
 }
