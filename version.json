@@ -1,10 +1,10 @@
 {
-  "versionCode": 116,
-  "versionName": "0.1.16",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.16/xiaoshuo-0.1.16.apk",
-  "sha256": "abcf2bda7204f6f56e86c48ec42b000b7cfab875687f02131b6e55cfaea8dfaa",
+  "versionCode": 117,
+  "versionName": "0.1.17",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.17/xiaoshuo-0.1.17.apk",
+  "sha256": "4c564644ddf45b3b8122da6b6df3a6e0856c8f6d4cbd45a9326b0fea435f8f90",
   "size": 97847576,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：真机漏网——行尾冒号的元文本头（「逐章构思一下：」「分类限：地点」）、无标点的规划句（「从逻辑上规划这一卷」）不再变成章名/角色名/设定名；专名守卫收敛为共享规则（行尾冒号 + 任务元词），三处解析对齐\n- 修复：名称尾部清理——「陆沉舟——嗯，\"陆\"作为姓氏…」这类名称后接思考、「周平川。」这类行尾句号，剥掉尾部只留真名，不再整条入库或整条丢弃",
-  "publishedAt": 1793211540963
+  "changelog": "- 修复：角色/世界观生成——提示词要求模型在信息不足（简介/大纲为空）时基于书名与题材直接假设输出，不提问、不等待澄清、不输出与用户对话的内容（真机：模型两次只在思考里问澄清问题，用户只看到无意义的「AI 原文」）",
+  "publishedAt": 1793249132900
 }
