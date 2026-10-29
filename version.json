@@ -1,10 +1,10 @@
 {
-  "versionCode": 125,
-  "versionName": "0.1.25",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.25/xiaoshuo-0.1.25.apk",
-  "sha256": "2d0fecb06ef6081be927e32995751c35292bc867f54d87c70242e21b40f215a2",
-  "size": 97851672,
+  "versionCode": 126,
+  "versionName": "0.1.26",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.26/xiaoshuo-0.1.26.apk",
+  "sha256": "cb6439b514e2db46876cc4980ca1387dca53300611aaf496fbce4cedff3523ed",
+  "size": 97855768,
   "minSupportedVersionCode": null,
   "changelog": "- 修复：全部提示词模板补「不要输出思考/推理/分析过程」约束——正文生成 system 段、构思向导（书名/情节/大纲/章节目录/章节大纲）、角色/设定、要求建议、章节摘要统一禁止思考过程进输出，配合 reasoning 兜底剥离，双重防思考混入正文",
-  "publishedAt": 1793259905912
+  "publishedAt": 1793271468318
 }
