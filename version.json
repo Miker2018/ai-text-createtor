@@ -1,10 +1,10 @@
 {
-  "versionCode": 121,
-  "versionName": "0.1.21",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.21/xiaoshuo-0.1.21.apk",
-  "sha256": "14e9f04c26ea36ee623b5ac1db066abae0962519233d6f450a5bfe72871209df",
+  "versionCode": 122,
+  "versionName": "0.1.22",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.22/xiaoshuo-0.1.22.apk",
+  "sha256": "7f07ab5281d3798ba1cc1cbc5fcd44f5d55b04ae14f51695e62b7be5e494d525",
   "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：章名/角色名后挂英文思考尾巴（「15 病房归来? Already」）时取前段，不再整条入库",
-  "publishedAt": 1793254982420
+  "changelog": "- 新增：构思向导里可直接删除已入库角色与世界观设定——第 4 步角色、第 5 步世界观已有列表各加「删除」，danger 二次确认后软删并刷新，不再只能去角色库/设定库单独删",
+  "publishedAt": 1793255699883
 }
