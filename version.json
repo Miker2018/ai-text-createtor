@@ -1,10 +1,10 @@
 {
-  "versionCode": 119,
-  "versionName": "0.1.19",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.19/xiaoshuo-0.1.19.apk",
-  "sha256": "09b594eb34e7dc6c9fcc5bf8e3a2aa2de1d112beeca39176bc816adabf3a7154",
+  "versionCode": 120,
+  "versionName": "0.1.20",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.20/xiaoshuo-0.1.20.apk",
+  "sha256": "8e4a03eca001d9fda199809f93a7a00bda276c17a1fd5a1564759bafb814fb04",
   "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：角色/设定解析丢内容——模型写粗体字段（「- **性格**：…」）时字段全丢（角色只入库名字）；字段值跨行的续行被静默丢弃；标题里的定位注记（「赵铁柱（反派）」）与中文序号（「一、」）不再进名字；未识别字段行接进备注，不再静默丢",
-  "publishedAt": 1793252558855
+  "changelog": "- 修复：模型的英文思考句（「No sequence. Exactly 5」）不再被当成角色名/设定名——裸行与标题带英文句点+空格或英文句末标点时拒收；合法英文名（Alice Liddell）不受影响",
+  "publishedAt": 1793253476893
 }
