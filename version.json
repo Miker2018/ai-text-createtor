@@ -1,10 +1,10 @@
 {
-  "versionCode": 120,
-  "versionName": "0.1.20",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.20/xiaoshuo-0.1.20.apk",
-  "sha256": "8e4a03eca001d9fda199809f93a7a00bda276c17a1fd5a1564759bafb814fb04",
+  "versionCode": 121,
+  "versionName": "0.1.21",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.21/xiaoshuo-0.1.21.apk",
+  "sha256": "14e9f04c26ea36ee623b5ac1db066abae0962519233d6f450a5bfe72871209df",
   "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：模型的英文思考句（「No sequence. Exactly 5」）不再被当成角色名/设定名——裸行与标题带英文句点+空格或英文句末标点时拒收；合法英文名（Alice Liddell）不受影响",
-  "publishedAt": 1793253476893
+  "changelog": "- 修复：章名/角色名后挂英文思考尾巴（「15 病房归来? Already」）时取前段，不再整条入库",
+  "publishedAt": 1793254982420
 }
