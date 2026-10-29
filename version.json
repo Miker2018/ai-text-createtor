@@ -1,10 +1,10 @@
 {
-  "versionCode": 118,
-  "versionName": "0.1.18",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.18/xiaoshuo-0.1.18.apk",
-  "sha256": "a373d97fb7eff68a04aa902419ae8fc08a8793c3a6e3a6af3365d56d68013237",
+  "versionCode": 119,
+  "versionName": "0.1.19",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.19/xiaoshuo-0.1.19.apk",
+  "sha256": "09b594eb34e7dc6c9fcc5bf8e3a2aa2de1d112beeca39176bc816adabf3a7154",
   "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 变更：构思向导步骤顺序重构——角色与世界观先生成（第 4/5 步），章节目录与章节大纲后生成（第 6/7 步）；章节目录/大纲提示词注入已定角色（名+定位）与设定（名+分类），章名里的人物、地点与角色卡/世界观一致，不再各编各的（真机：主角在大纲里叫「林锐」、角色卡叫「林越」）",
-  "publishedAt": 1793251552983
+  "changelog": "- 修复：角色/设定解析丢内容——模型写粗体字段（「- **性格**：…」）时字段全丢（角色只入库名字）；字段值跨行的续行被静默丢弃；标题里的定位注记（「赵铁柱（反派）」）与中文序号（「一、」）不再进名字；未识别字段行接进备注，不再静默丢",
+  "publishedAt": 1793252558855
 }
