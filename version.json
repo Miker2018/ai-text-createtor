@@ -1,10 +1,10 @@
 {
-  "versionCode": 123,
-  "versionName": "0.1.23",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.23/xiaoshuo-0.1.23.apk",
-  "sha256": "0111679695d1615de93a862a6eb710d6b009e5124096fde215fbb25943a2a871",
+  "versionCode": 124,
+  "versionName": "0.1.24",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.24/xiaoshuo-0.1.24.apk",
+  "sha256": "6b5c41f895c2e80efa5a797816831bfd7d27c2ac64d04f68d90bd99100fa26bc",
   "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：聚合网关的推理模型（deepseek-v4 系列、glm-5.3 系列）关闭思考无效——识别为天生推理模型，不再发无效关闭字段（防网关对未知字段报 400），设置页明确提示换 deepseek-chat 或非推理模型",
-  "publishedAt": 1793256802675
+  "changelog": "- 修复：思考内容混进正文——8888ok 等网关的推理模型（deepseek-v4-pro）把成品也写在 reasoning_content（content 恒空），思考兜底直接拿 reasoning 当正文导致英文思考句混进章名/角色/设定。现在兜底时按行剥离英文思考，只留中文成品；纯思考仍按「模型只返回了思考内容」处理",
+  "publishedAt": 1793258855067
 }
