@@ -1,10 +1,10 @@
 {
-  "versionCode": 117,
-  "versionName": "0.1.17",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.17/xiaoshuo-0.1.17.apk",
-  "sha256": "4c564644ddf45b3b8122da6b6df3a6e0856c8f6d4cbd45a9326b0fea435f8f90",
-  "size": 97847576,
+  "versionCode": 118,
+  "versionName": "0.1.18",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.18/xiaoshuo-0.1.18.apk",
+  "sha256": "a373d97fb7eff68a04aa902419ae8fc08a8793c3a6e3a6af3365d56d68013237",
+  "size": 97851672,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：角色/世界观生成——提示词要求模型在信息不足（简介/大纲为空）时基于书名与题材直接假设输出，不提问、不等待澄清、不输出与用户对话的内容（真机：模型两次只在思考里问澄清问题，用户只看到无意义的「AI 原文」）",
-  "publishedAt": 1793249132900
+  "changelog": "- 变更：构思向导步骤顺序重构——角色与世界观先生成（第 4/5 步），章节目录与章节大纲后生成（第 6/7 步）；章节目录/大纲提示词注入已定角色（名+定位）与设定（名+分类），章名里的人物、地点与角色卡/世界观一致，不再各编各的（真机：主角在大纲里叫「林锐」、角色卡叫「林越」）",
+  "publishedAt": 1793251552983
 }
