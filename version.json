@@ -1,10 +1,10 @@
 {
-  "versionCode": 138,
-  "versionName": "0.1.38",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.38/xiaoshuo-0.1.38.apk",
-  "sha256": "277c5a360b5c68a072c257edb219f77a33f3d3b04d4912dc50bf97f3e9c65cd4",
-  "size": 97888536,
+  "versionCode": 139,
+  "versionName": "0.1.39",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.39/xiaoshuo-0.1.39.apk",
+  "sha256": "efcfb5785240ae326329473e0907cdd016347d73b42cb860d78fef2a03ca64d6",
+  "size": 97892632,
   "minSupportedVersionCode": null,
-  "changelog": "- 修复：批量任务、审核、评分及单次 AI 请求统一参与共享保活判断，其他队列结束或守护发出释放请求时，不再误关仍运行任务的保活；任务队列在两次模型请求间继续刷新进度通知。继续尊重队列保活开关，切后台不主动停止队列，系统挂起／强杀边界不变。",
-  "publishedAt": 1793527194148
+  "changelog": "- 优化：书架、作品页及阅读页的评分展示改用章节元数据／正文指纹轻量核对，不再因切页或评分进度事件重读整本书；严格评分及文件校验接口保留，缺指纹、旧报告或目录变化保守显示历史待核实。\n- 优化：评分事件携作品 ID，页面定向刷新并合并重复读取；切回保留已显示评分，隐藏书架停止审核 UI 轮询而不停止后台队列及保活。评分队列作品名称读取去重，避免事件密集时重复查库。",
+  "publishedAt": 1793528435993
 }
