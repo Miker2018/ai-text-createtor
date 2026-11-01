@@ -1,10 +1,10 @@
 {
-  "versionCode": 137,
-  "versionName": "0.1.37",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.37/xiaoshuo-0.1.37.apk",
-  "sha256": "547d10a8a921f31ba09636fcbf78f7aac60ddde12e8313ae77ada56cc356a87e",
+  "versionCode": 138,
+  "versionName": "0.1.38",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.38/xiaoshuo-0.1.38.apk",
+  "sha256": "277c5a360b5c68a072c257edb219f77a33f3d3b04d4912dc50bf97f3e9c65cd4",
   "size": 97888536,
   "minSupportedVersionCode": null,
-  "changelog": "- 新增：作品评分改为跨作品串行队列，忙碌时提交不再丢失，同一作品去重，排队任务可取消；任务页与作品评分区展示队列、作品名、排队位置和逐章进度，并可打开作品详情。\n- 修复：已明确提交的评分在离开页面、应用切后台后继续处理，复用全局后台保活与评分通知；失败不自动重试并继续后续作品，每次请求仍检查外发授权、网络与预算，完整章节逐章保存。\n- 边界：评分队列为当前进程内队列，关闭／强杀应用会中断；已完成章节保留，可显式继续评分。系统省电及 iOS 挂起仍可能中断后台执行，不承诺系统级永久运行。",
-  "publishedAt": 1793526789061
+  "changelog": "- 修复：批量任务、审核、评分及单次 AI 请求统一参与共享保活判断，其他队列结束或守护发出释放请求时，不再误关仍运行任务的保活；任务队列在两次模型请求间继续刷新进度通知。继续尊重队列保活开关，切后台不主动停止队列，系统挂起／强杀边界不变。",
+  "publishedAt": 1793527194148
 }
