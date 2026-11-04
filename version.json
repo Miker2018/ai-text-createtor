@@ -1,10 +1,10 @@
 {
-  "versionCode": 140,
-  "versionName": "0.1.40",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.40/xiaoshuo-0.1.40.apk",
-  "sha256": "df2a5a0f88c6c2137dffd889bfeadb08036306cf313ba5a33ab1647af530d5f8",
-  "size": 97892632,
+  "versionCode": 141,
+  "versionName": "0.1.41",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.41/xiaoshuo-0.1.41.apk",
+  "sha256": "329bf3b7b473b2073a154cf377c224b7d57d35ab968a016cedd722b9e4110746",
+  "size": 97975107,
   "minSupportedVersionCode": null,
-  "changelog": "- 优化：编辑器正文输入改为非受控回写，移除逐键与流式生成期间的全文哈希，长章输入不再随字数变慢；查找输入增加短防抖。\n- 优化：书架评分徽标改为读取已加载作品行的已保存评分，移除每本 3~5 次状态查询与翻页 O(n²) 重查；审核抽屉轮询改为快照签名去重，卡片审核标注缓存；封面懒加载、左滑行不再常驻合成层。\n- 优化：任务状态秒数下沉到活动卡片内部计时，任务/进度列表做差量更新；任务计数改一次聚合查询，保活通知的用量摘要缓存并合并评分事件刷新。\n- 优化：评分逐章落盘用章节 contentHash 校验替代全书重读重哈希，严格状态读取复用章节哈希；阅读页/作品页评分事件优先进程内视图，减少逐章查库。\n- 优化：构思向导章节大纲最多同时渲染一个原生 textarea，隐藏页面停止秒表与后台状态轮询；设定/角色流式预览与生成要求建议按帧合并。\n- 调整：阅读模式菜单的上一章/下一章改为与进度条同行的纯文字入口，不再使用按钮底色与描边。",
-  "publishedAt": 1793685704336
+  "changelog": "- 规范：禁止页面级（全局）下拉刷新，全部页面 `enablePullDownRefresh: false`，移除所有 `onPullDownRefresh` 钩子，刷新改用局部 `scroll-view` refresher / 按钮。\n- 测试：新增 `tests/ui/no-global-pull-refresh.test.ts` 门禁，防止回退。",
+  "publishedAt": 1793780417711
 }
