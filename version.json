@@ -1,10 +1,10 @@
 {
-  "versionCode": 141,
-  "versionName": "0.1.41",
-  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.41/xiaoshuo-0.1.41.apk",
-  "sha256": "329bf3b7b473b2073a154cf377c224b7d57d35ab968a016cedd722b9e4110746",
-  "size": 97975107,
+  "versionCode": 169,
+  "versionName": "0.1.69",
+  "downloadUrl": "https://github.com/Miker2018/ai-text-createtor/releases/download/v0.1.69/xiaoshuo-0.1.69.apk",
+  "sha256": "cf7565128ecfc0d9b4b07af4b7505032f4dc3fc2a07a9f011082c69042c49ce1",
+  "size": 98016254,
   "minSupportedVersionCode": null,
-  "changelog": "- 规范：禁止页面级（全局）下拉刷新，全部页面 `enablePullDownRefresh: false`，移除所有 `onPullDownRefresh` 钩子，刷新改用局部 `scroll-view` refresher / 按钮。\n- 测试：新增 `tests/ui/no-global-pull-refresh.test.ts` 门禁，防止回退。",
-  "publishedAt": 1793780417711
+  "changelog": "- 修复：下拉取消书签后彩带残留——直删通道被 confirmRemoveBookmark 的对话期守卫（deleteBookmarkVisible）拦截，书签实际未删；抽取 doRemoveBookmark 共用实现（确认框/直删两入口共用，守卫只在确认框入口）；彩带颜色主色改红色（--color-danger）。",
+  "publishedAt": 1793867148693
 }
